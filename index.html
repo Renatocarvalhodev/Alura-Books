@@ -105,6 +105,58 @@
         </div>
     </section>
 
+    <section class="carrosel">
+        <h2 class="carrosel__titulo">Mais vendidos</h2>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="imagens/ApacheKafka.svg" alt="Livro sobre apache kafka e spring boot da alura books"></div>
+                <div class="swiper-slide"><img src="imagens/Lideranca.svg" alt="Livro sobre liderança em design da alura books"></div>
+                <div class="swiper-slide"><img src="imagens/Javascript.svg" alt="Livro sobre javascript assertivo da alura books"></div>
+                <div class="swiper-slide"><img src="imagens/Guia Front-end.svg" alt="Livro guia frontend da alura books"></div>
+                <div class="swiper-slide"><img src="imagens/Portugol.svg" alt="Livro sobre portugol da alura books"></div>
+                <div class="swiper-slide"><img src="imagens/Acessibilidade.svg" alt="Livro sobre acessibilidade da alura books"></div>
+            </div>
+        
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+        </div>
+
+        <div class="card">
+            <!-- Primeira linha -->
+            <div class="card__descricao">
+                <!-- Primeira coluna -->
+                <div class="descricao">
+                    <img src="imagens/Estrelinhas.svg" alt="Avaliação 5 estrelas">
+                    <h3 class="descricao__titulo">Autora do Mês</h3>
+                    <h2 class="descricao__titulo-livro">Juliana Agarikov</h2>
+                    <p class="descricao__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End.</p>
+                </div>
+               <!-- Segunda coluna -->
+                <img src="imagens/Escritora.svg" class="descricao__imagem">
+            </div>
+
+            <!-- Segunda linha -->
+            <div class="card__botoes">
+                <!-- Primeira coluna -->
+                <ul class="botoes">
+                    <li class="botoes__item"><img src="imagens/Favoritos.svg" alt="Favoritar autor"></li>
+                    <li class="botoes__item"><img src="imagens/Compras.svg" alt="Adicionar no carrinho de compras"></li>
+                </ul>
+                <!-- Segunda coluna -->
+                <a href="#" class="botoes__ancora">Saiba Mais</a>
+            </div>
+        </div>
+    </section>
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
         const swiper = new Swiper('.swiper', {
